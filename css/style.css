@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+	--color-contenido:#333;
+	--menu-hover:#ff6a6d;
+	--color-base:#ff6a6d;
+	--color-azul:#030080;
+	--color-morado:#ad00f7;
+	--accordion-bg:#faf7f3;
+	--color-gris:#D3D3D3;
+	--color-cuadros:#f8f5f1;
+}
+
+body{
+	font-family: "Jost", sans-serif;
+	font-size: 16px;
+	color: var(--color-azul);
+	line-height: 1.8;
+}
+header{
+	background-color: var(--color-azul);
+	padding: 10px 0;
+}
+
+#hero{
+	background-image: url("../img/bg-home.jpg");
+	background-size: cover;
+	background-position: top center;
+	padding: 10% 0 20%;
+	color: #fff;
+}
+
+.letra-hero{
+	font-size: 90px;
+}
+.letra-sub{
+	font-size: 55px;
+}
+.mb-5{
+	margin-bottom: 45px !important;
+}
+.info-sub{
+	padding-right: 35%;
+	font-weight: 400;
+}
+.btn-primary{
+	background-color: var(--color-base);
+	border-radius: 40px;
+	padding: 20px 40px;
+	font-size: 24px;
+	font-weight: 500;
+	border-color: var(--color-base);
+}
+.btn-primary:hover{
+	background-color: #fff;
+	color: var(--color-base);
+	border-color: #fff;
+}
+
+.btn-border{
+	background-color: transparent;
+	color: var(--color-base);
+}
+.btn-border:hover{
+	background-color: var(--color-base);
+	color: #fff;
+	border-color: var(--color-base);
+}
+
+.img-hero{
+	position: absolute;
+	right: 5%;
+	top: 30%;
+	width: 40%;
+}
+
+.titulo{
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+
+.section{
+	padding: 8% 0;
+}
+
+.layer-7{
+	position: absolute;
+	top: 20%;
+	right: 0%;
+	width: 80%;
+	z-index: 100;
+}
+
+.layer-8{
+	position: absolute;
+	top: 10%;
+	left: 0%;
+	width: 40%;
+}
+
+.layer-9{
+	position: absolute;
+	bottom: 40%;
+	right: 0%;
+	width: 40%;
+	z-index: 200;
+}
+
+.w-85{
+	width: 85% !important;
+}
+
+.btn-morado{
+	background-color: var(--color-morado);
+	color:#fff;
+	border-radius: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: 500;
+	box-shadow: 5px 7px 0px 1px #f2f2f2;
+}
+.btn-morado:hover{
+	background-color: var(--color-azul);
+	color: #fff;
+}
+
+#categories{
+	background-image: url("../img/13.png");
+	background-size: cover;
+	background-position: top center;
+}
+.link-icon{
+	background-color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	padding: 40px 30px;
+	color: var(--color-azul);
+	box-shadow: 0px 0px 20px 6px rgba(255, 106, 109,.20);
+}
+.icon-primary{
+	font-size: 80px;
+	color: var(--color-base);
+	margin-bottom: 20px;
+}
+.texto-icon{
+	font-size: 16px;
+	font-weight: 500;
+}
+.link-icon:hover{
+	background-color: #f5ede6;
+	color: var(--color-base);
+}
+.link-icon:hover .icon-primary{
+	color: var(--color-azul);
+}
+
+.accordion-item{
+	background-color: var(--accordion-bg);
+	margin-bottom: 7px;
+}
+.accordion-button{
+	background-color: var(--accordion-bg);
+	color: var(--color-azul);
+	font-weight: 500;
+}
+.accordion-button:not(.collapsed){
+	color: var(--color-base);
+	background-color: var(--accordion-bg);
+}
+
+.img-teachers{
+	border-radius: 100%;
+}
+.subtitulo{
+	color: var(--color-base);
+}
+.teachers{
+	color: var(--color-azul)
+}
+.consultant{
+	color: var(--color-gris);
+	font-weight: 200;
+	
+}
+.number{
+	color: var(--color-base);
+}
+
+.correo{
+	color: var(--color-base);
+	font-weight: 200;
+}
+.correo2{
+	color: var(--color-base);
+	font-weight: 500;
+}
+
+.courses-info{
+	
+	font-size:20px;
+	font-weight: 300;
+	padding-right: 20px;
+	margin-top: 20px;
+	
+}
+
+
+.titulo-courses h3{
+	display: inline-block;
+}
+
+
+.list{
+	color:var(--color-base);
+}
+
+.cuadros-teachers{
+	background-color: var(--color-cuadros);
+	border-radius: 30px;
+	padding: 0 20px;
+}
+
+features {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.feature-item {
+  display: table;
+  margin-bottom: 45px;
+}
+
+.feature-item i {
+  display: table-cell;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #D941FF;
+  font-size: 30px;
+ box-shadow: 5px 7px 15px 1px #f2f2f2;
+}
+
+.feature-item div {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+
+.feature-item h4 {
+  color: #08126b;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.feature-item p {
+  color: #b5b5c5;
+  margin: 0;
+}
+
+.feature-item.right {
+  text-align: right;
+}
+
+.feature-item.right div {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.phone-img {
+  max-width: 280px;
+}
